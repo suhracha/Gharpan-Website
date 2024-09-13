@@ -1,0 +1,77 @@
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu {
+            margin-top: 0; 
+        }
+        .second-nav-bodycolor{
+            background-color: rgb(193, 0, 13);
+        }
+
+        .first-navbar-link{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .first-navbar-link-login{
+            color: rgb(236, 210, 16);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .second-nav-link {
+            color: rgb(236, 210, 16);
+            font-weight: bold;
+        }
+        .second-nav-link:hover{
+            color: rgb(236, 210, 16);
+            text-decoration: underline;
+        }
+        li{
+            list-style-type: none;
+        }
+        .advertisements{
+            margin: 80px;
+        }
+        .advertisements-carousel{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .small-cards{
+            margin: 50px 100px 50px;
+        }
+        .tagline-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+          .sold-card{
+            color:rgb(72, 71, 71);
+          }
+          .card:hover {
+            transform: scale(1.05); /* Slight zoom-in effect */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+        }
+
+        /* Optional: Change the card's image brightness on hover */
+        .card:hover img {
+            filter: brightness(90%); /* Darken the image slightly */
+        }
+
+        /* Optional: Change the card's title color on hover */
+        .card:hover .card-title {
+            color: #007bff; /* Change the text color to blue */
+        }
+
+        /* Optional: Change the text color of the card on hover */
+        .card:hover .card-text {
+            color: #343a40; /* Darken the text color */
+        }
